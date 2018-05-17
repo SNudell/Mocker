@@ -8,23 +8,11 @@ import java.util.Vector;
  */
 public class MockerLogger {
 
-    //singleton variable
-    private static MockerLogger instance;
-
     //the logs
     private Vector<LogEntry> history;
 
-    // ensures that everybody uses the same instance
-    public static MockerLogger getInstance() {
-        if(instance != null) return instance;
-        else {
-            instance = new MockerLogger();
-            return instance;
-        }
-    }
-
     //private constructor due to singleton implementation
-    private MockerLogger () {
+    public MockerLogger () {
             this.history = new Vector<LogEntry>();
     }
 

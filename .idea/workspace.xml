@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fee47e8f-dabe-4356-a2ca-a83186dfdaea" name="Default" comment="" />
+    <list default="true" id="fee47e8f-dabe-4356-a2ca-a83186dfdaea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/de/oth/mocker/MockMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/de/oth/mocker/SpyMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/de/oth/mocker/VerifyMethodInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/de/oth/mocker/MockerSupervisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/oth/mocker/IntCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/oth/mocker/IntCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/oth/mocker/Mocker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/oth/mocker/Mocker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/oth/mocker/MockerLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/oth/mocker/MockerLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/oth/mocker/MockerSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestMain.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +39,20 @@
       <file leaf-file-name="Mocker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+            <state relative-caret-position="429">
+              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifyMethodInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/VerifyMethodInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -34,19 +60,62 @@
       <file leaf-file-name="IntCompare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/IntCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+            <state relative-caret-position="144">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockerLogger.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java">
+      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+            <state relative-caret-position="325">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3757#3765#0" expanded="true" />
+                <element signature="e#4054#4062#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpyMethodInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/SpyMethodInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.6/cglib-3.2.6-sources.jar!/net/sf/cglib/proxy/Factory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockMethodInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockMethodInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,17 +124,17 @@
       <file leaf-file-name="LogEntry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/LogEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockerSupervisor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerSupervisor.java">
+      <file leaf-file-name="MockerLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +147,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,6 +157,9 @@
       <find>unsafe</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -95,12 +167,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/de/oth/mocker/TwoIntCompare.java" />
         <option value="$PROJECT_DIR$/src/main/main.java" />
-        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java" />
-        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/IntCompare.java" />
         <option value="$PROJECT_DIR$/src/main/de/oth/mocker/LogEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/MockerSupervisor.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/IntCompare.java" />
         <option value="$PROJECT_DIR$/src/test/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/MyMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/MockerSupervisor.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/VerifyMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/SpyMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/de/oth/mocker/MockMethodInterceptor.java" />
       </list>
     </option>
   </component>
@@ -126,6 +202,7 @@
     <option name="width" value="1857" />
     <option name="height" value="1092" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -193,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassPrinter">
+  <component name="RunManager" selected="JUnit.All in Mocker">
     <configuration name="ClassPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.oth.yajp.reflect.ClassPrinter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -274,8 +351,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassPrinter" />
         <item itemvalue="JUnit.All in Mocker" />
+        <item itemvalue="Application.ClassPrinter" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -303,60 +380,64 @@
       <workItem from="1525731878457" duration="11000" />
       <workItem from="1525734317943" duration="750000" />
       <workItem from="1525766332033" duration="122000" />
-      <workItem from="1525766496282" duration="442000" />
+      <workItem from="1525766496282" duration="4611000" />
+      <workItem from="1525852466717" duration="376000" />
+      <workItem from="1526372054780" duration="12000" />
+      <workItem from="1526557554004" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 10s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 08m 18s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 12s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 11m 40s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 13s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 11m 59s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 15s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 12m 08s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 17s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 12m 10s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 19s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 13m 37s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 21s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 15m 41s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 23s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 16m 19s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.04 at 10h 29m 27s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.08 at 11h 18m 24s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Mocker - 2018.05.08 at 01h 05m 41s.xml">
+    <history-entry file="All_in_Mocker - 2018.05.17 at 14h 01m 55s.xml">
       <configuration name="All in Mocker" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29284000" />
+    <option name="totallyTimeSpent" value="35116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-1091" width="1857" height="1092" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49919137" weight="0.3295688" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5061995" side_tool="true" visible="true" weight="0.3295688" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5040431" side_tool="true" weight="0.39917696" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49380055" weight="0.3295688" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4916442" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49973047" weight="0.32921812" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13800539" />
@@ -366,10 +447,9 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49757412" weight="0.399384" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49595687" weight="0.39917696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49919137" weight="0.3295688" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -384,62 +464,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/IntCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerSupervisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/LogEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -470,6 +498,8 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3757#3765#0" expanded="true" />
+            <element signature="e#4054#4062#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,6 +558,8 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3757#3765#0" expanded="true" />
+            <element signature="e#4054#4062#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,6 +612,8 @@
           <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3757#3765#0" expanded="true" />
+            <element signature="e#4054#4062#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5211">
-          <caret line="124" column="79" lean-forward="true" selection-start-line="124" selection-start-column="79" selection-end-line="124" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/jdk.unsupported/sun/misc/Unsafe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -697,13 +724,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/LogEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.6/cglib-3.2.6-sources.jar!/net/sf/cglib/core/ReflectUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -711,46 +731,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestMain.java">
+    <entry file="file://$USER_HOME$/Downloads/ClassPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-900">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/LogEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1274">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.6/cglib-3.2.6-sources.jar!/net/sf/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/IntCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+        <state relative-caret-position="144">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerSupervisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/test/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        <state relative-caret-position="325">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3757#3765#0" expanded="true" />
+            <element signature="e#4054#4062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.2.6/cglib-3.2.6-sources.jar!/net/sf/cglib/proxy/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockerLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/Mocker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/VerifyMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/SpyMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/de/oth/mocker/MockMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>

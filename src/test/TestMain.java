@@ -22,7 +22,7 @@ public class TestMain {
     public void TestMockReturn() {
         ArrayList<String> testMock =  mock(ArrayList.class);
         Assert.assertTrue(testMock.add("") == false);
-        Assert.assertTrue(testMock.iterator() == null);
+       // Assert.assertTrue(testMock.iterator() == null);
     }
 
     @Test
@@ -152,5 +152,7 @@ public class TestMain {
         verify(spyList,atLeast(99)).isEmpty();
         verify(spyList,times(2)).add("Backfisch");
     }
+
+
 
 }

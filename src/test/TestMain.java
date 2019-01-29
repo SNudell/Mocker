@@ -65,7 +65,7 @@ public class TestMain {
     }
 
     @Test
-    public	void	mockTest1()	{
+    public void mockTest1()	{
         List<String> mockObject	= mock(ArrayList.class);
 
         mockObject.add("John	Doe");

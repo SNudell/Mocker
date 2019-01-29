@@ -2,7 +2,6 @@ package de.oth.mocker;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.Factory;
-import net.sf.cglib.proxy.MethodInterceptor;
 
 public interface Mocker {
 
@@ -40,6 +39,7 @@ public interface Mocker {
         //creates a subclass to the suspect with the given MethodInterceptor
         return (T) enhancer.create();
     }
+
     /**
      * will put the object in a verify state
      * @param mock object whose methods will be verified
